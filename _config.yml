@@ -1,0 +1,47 @@
+name:
+author: WIMSE
+baseurl: /project
+description:
+project: the project
+
+domain_site: ""
+domain_email:
+domain_password:
+
+github_account: ""
+github_password:
+
+flickr_account: ""
+flickr_password:
+
+embed_account: ""
+embed_password:
+
+tinyletter_username: ""
+tinyletter_password:
+
+port: 2000
+envir: devel
+
+email: info@wimse.se
+location: 42°2'16"N   70°12'47"W
+disqus:
+disqus_username:
+disqus_password:
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
