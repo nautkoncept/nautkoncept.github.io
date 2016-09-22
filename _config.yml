@@ -1,5 +1,6 @@
+logo: NAUT
 name: nautkoncept.se
-description: Naut Konceptutveckling AB
+description: Konceptutveckling AB
 url: http://nautkoncept.se
 permalink: /:title/
 paginate: 9
