@@ -140,28 +140,28 @@
         
             
             &lt;b&gt;Bloom Flat&lt;/b&gt;
-            &lt;img src=&quot;/development/img/galleries/gallery-standard-post/1.jpg&quot; alt=&quot;Bloom Flat&quot; /&gt;
+            &lt;img src=&quot;/img/galleries/gallery-standard-post/1.jpg&quot; alt=&quot;Bloom Flat&quot; /&gt;
 
             &lt;b&gt;Bloom&lt;/b&gt;
-            &lt;img src=&quot;/development/img/galleries/gallery-standard-post/2.jpg&quot; alt=&quot;Bloom&quot; /&gt;
+            &lt;img src=&quot;/img/galleries/gallery-standard-post/2.jpg&quot; alt=&quot;Bloom&quot; /&gt;
 
             &lt;b&gt;Blossom in a Star&lt;/b&gt;
-            &lt;img src=&quot;/development/img/galleries/gallery-standard-post/3.jpg&quot; alt=&quot;Blossom in a Star&quot; /&gt;
+            &lt;img src=&quot;/img/galleries/gallery-standard-post/3.jpg&quot; alt=&quot;Blossom in a Star&quot; /&gt;
 
             &lt;b&gt;Blossom&lt;/b&gt;
-            &lt;img src=&quot;/development/img/galleries/gallery-standard-post/4.jpg&quot; alt=&quot;Blossom&quot; /&gt;
+            &lt;img src=&quot;/img/galleries/gallery-standard-post/4.jpg&quot; alt=&quot;Blossom&quot; /&gt;
 
             &lt;b&gt;Bubbly Bloom&lt;/b&gt;
-            &lt;img src=&quot;/development/img/galleries/gallery-standard-post/5.jpg&quot; alt=&quot;Bubbly Bloom&quot; /&gt;
+            &lt;img src=&quot;/img/galleries/gallery-standard-post/5.jpg&quot; alt=&quot;Bubbly Bloom&quot; /&gt;
 
             &lt;b&gt;Rays of Gold&lt;/b&gt;
-            &lt;img src=&quot;/development/img/galleries/gallery-standard-post/6.jpg&quot; alt=&quot;Rays of Gold&quot; /&gt;
+            &lt;img src=&quot;/img/galleries/gallery-standard-post/6.jpg&quot; alt=&quot;Rays of Gold&quot; /&gt;
 
             &lt;b&gt;Exotic&lt;/b&gt;
-            &lt;img src=&quot;/development/img/galleries/gallery-standard-post/7.jpg&quot; alt=&quot;Exotic&quot; /&gt;
+            &lt;img src=&quot;/img/galleries/gallery-standard-post/7.jpg&quot; alt=&quot;Exotic&quot; /&gt;
 
             &lt;b&gt;Filled out&lt;/b&gt;
-            &lt;img src=&quot;/development/img/galleries/gallery-standard-post/8.jpg&quot; alt=&quot;Filled out&quot; /&gt;
+            &lt;img src=&quot;/img/galleries/gallery-standard-post/8.jpg&quot; alt=&quot;Filled out&quot; /&gt;
 
 
 
@@ -317,36 +317,36 @@ The setup basically is the same, the include makes all the difference.&lt;/p&gt;
     
         
             
-                &lt;a href=&quot;/development/img/galleries/gallery-standard-post/1.jpg&quot; data-imagelightbox=&quot;f&quot; class=&quot;noline&quot;&gt;
-                    &lt;img src=&quot;/development/img/galleries/gallery-standard-post/1.jpg&quot; alt=&quot;Bloom Flat&quot; /&gt;
+                &lt;a href=&quot;/img/galleries/gallery-standard-post/1.jpg&quot; data-imagelightbox=&quot;f&quot; class=&quot;noline&quot;&gt;
+                    &lt;img src=&quot;/img/galleries/gallery-standard-post/1.jpg&quot; alt=&quot;Bloom Flat&quot; /&gt;
                 &lt;/a&gt;
             
-                &lt;a href=&quot;/development/img/galleries/gallery-standard-post/2.jpg&quot; data-imagelightbox=&quot;f&quot; class=&quot;noline&quot;&gt;
-                    &lt;img src=&quot;/development/img/galleries/gallery-standard-post/2.jpg&quot; alt=&quot;Bloom&quot; /&gt;
+                &lt;a href=&quot;/img/galleries/gallery-standard-post/2.jpg&quot; data-imagelightbox=&quot;f&quot; class=&quot;noline&quot;&gt;
+                    &lt;img src=&quot;/img/galleries/gallery-standard-post/2.jpg&quot; alt=&quot;Bloom&quot; /&gt;
                 &lt;/a&gt;
             
-                &lt;a href=&quot;/development/img/galleries/gallery-standard-post/3.jpg&quot; data-imagelightbox=&quot;f&quot; class=&quot;noline&quot;&gt;
-                    &lt;img src=&quot;/development/img/galleries/gallery-standard-post/3.jpg&quot; alt=&quot;Blossom in a Star&quot; /&gt;
+                &lt;a href=&quot;/img/galleries/gallery-standard-post/3.jpg&quot; data-imagelightbox=&quot;f&quot; class=&quot;noline&quot;&gt;
+                    &lt;img src=&quot;/img/galleries/gallery-standard-post/3.jpg&quot; alt=&quot;Blossom in a Star&quot; /&gt;
                 &lt;/a&gt;
             
-                &lt;a href=&quot;/development/img/galleries/gallery-standard-post/4.jpg&quot; data-imagelightbox=&quot;f&quot; class=&quot;noline&quot;&gt;
-                    &lt;img src=&quot;/development/img/galleries/gallery-standard-post/4.jpg&quot; alt=&quot;Blossom&quot; /&gt;
+                &lt;a href=&quot;/img/galleries/gallery-standard-post/4.jpg&quot; data-imagelightbox=&quot;f&quot; class=&quot;noline&quot;&gt;
+                    &lt;img src=&quot;/img/galleries/gallery-standard-post/4.jpg&quot; alt=&quot;Blossom&quot; /&gt;
                 &lt;/a&gt;
             
-                &lt;a href=&quot;/development/img/galleries/gallery-standard-post/5.jpg&quot; data-imagelightbox=&quot;f&quot; class=&quot;noline&quot;&gt;
-                    &lt;img src=&quot;/development/img/galleries/gallery-standard-post/5.jpg&quot; alt=&quot;Bubbly Bloom&quot; /&gt;
+                &lt;a href=&quot;/img/galleries/gallery-standard-post/5.jpg&quot; data-imagelightbox=&quot;f&quot; class=&quot;noline&quot;&gt;
+                    &lt;img src=&quot;/img/galleries/gallery-standard-post/5.jpg&quot; alt=&quot;Bubbly Bloom&quot; /&gt;
                 &lt;/a&gt;
             
-                &lt;a href=&quot;/development/img/galleries/gallery-standard-post/6.jpg&quot; data-imagelightbox=&quot;f&quot; class=&quot;noline&quot;&gt;
-                    &lt;img src=&quot;/development/img/galleries/gallery-standard-post/6.jpg&quot; alt=&quot;Rays of Gold&quot; /&gt;
+                &lt;a href=&quot;/img/galleries/gallery-standard-post/6.jpg&quot; data-imagelightbox=&quot;f&quot; class=&quot;noline&quot;&gt;
+                    &lt;img src=&quot;/img/galleries/gallery-standard-post/6.jpg&quot; alt=&quot;Rays of Gold&quot; /&gt;
                 &lt;/a&gt;
             
-                &lt;a href=&quot;/development/img/galleries/gallery-standard-post/7.jpg&quot; data-imagelightbox=&quot;f&quot; class=&quot;noline&quot;&gt;
-                    &lt;img src=&quot;/development/img/galleries/gallery-standard-post/7.jpg&quot; alt=&quot;Exotic&quot; /&gt;
+                &lt;a href=&quot;/img/galleries/gallery-standard-post/7.jpg&quot; data-imagelightbox=&quot;f&quot; class=&quot;noline&quot;&gt;
+                    &lt;img src=&quot;/img/galleries/gallery-standard-post/7.jpg&quot; alt=&quot;Exotic&quot; /&gt;
                 &lt;/a&gt;
             
-                &lt;a href=&quot;/development/img/galleries/gallery-standard-post/8.jpg&quot; data-imagelightbox=&quot;f&quot; class=&quot;noline&quot;&gt;
-                    &lt;img src=&quot;/development/img/galleries/gallery-standard-post/8.jpg&quot; alt=&quot;Filled out&quot; /&gt;
+                &lt;a href=&quot;/img/galleries/gallery-standard-post/8.jpg&quot; data-imagelightbox=&quot;f&quot; class=&quot;noline&quot;&gt;
+                    &lt;img src=&quot;/img/galleries/gallery-standard-post/8.jpg&quot; alt=&quot;Filled out&quot; /&gt;
                 &lt;/a&gt;
             
         
