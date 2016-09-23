@@ -3,7 +3,7 @@ name: nautkoncept.se
 description: Konceptutveckling AB
 url: http://nautkoncept.se
 permalink: /:title/
-paginate: 9
+paginate: 12
 paginate_path: /page/:num/
 tag_dir: /tag
 category_dir: /category
