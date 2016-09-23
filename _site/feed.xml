@@ -31,6 +31,30 @@
 			</item>
 		
 			<item>
+				<title>This is a blog post cat edu</title>
+				
+				
+					<description>&lt;p&gt;This is a test&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 23 Sep 2016 00:00:00 +0200</pubDate>
+				<link>http://nautkoncept.se/blog/</link>
+				<guid isPermaLink="true">http://nautkoncept.se/blog/</guid>
+			</item>
+		
+			<item>
+				<title>This is a blog post cat case</title>
+				
+				
+					<description>&lt;p&gt;This is a test&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 22 Sep 2016 00:00:00 +0200</pubDate>
+				<link>http://nautkoncept.se/This-is-a-case-post/</link>
+				<guid isPermaLink="true">http://nautkoncept.se/This-is-a-case-post/</guid>
+			</item>
+		
+			<item>
 				<title>Youtube Full</title>
 				
 				
@@ -43,15 +67,15 @@
 			</item>
 		
 			<item>
-				<title>Youtube Full</title>
+				<title>Youtube Full1</title>
 				
 				
 					<description>
 </description>
 				
 				<pubDate>Wed, 04 Feb 2015 00:00:00 +0100</pubDate>
-				<link>http://nautkoncept.se/youtube-full/</link>
-				<guid isPermaLink="true">http://nautkoncept.se/youtube-full/</guid>
+				<link>http://nautkoncept.se/youtube-full1/</link>
+				<guid isPermaLink="true">http://nautkoncept.se/youtube-full1/</guid>
 			</item>
 		
 			<item>
@@ -67,15 +91,15 @@
 			</item>
 		
 			<item>
-				<title>Vimeo</title>
+				<title>Vimeo1</title>
 				
 				
 					<description>
 </description>
 				
 				<pubDate>Fri, 30 Jan 2015 00:00:00 +0100</pubDate>
-				<link>http://nautkoncept.se/vimeo/</link>
-				<guid isPermaLink="true">http://nautkoncept.se/vimeo/</guid>
+				<link>http://nautkoncept.se/vimeo1/</link>
+				<guid isPermaLink="true">http://nautkoncept.se/vimeo1/</guid>
 			</item>
 		
 	</channel>

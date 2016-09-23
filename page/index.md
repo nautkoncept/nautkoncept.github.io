@@ -1,6 +1,5 @@
 ---
-layout: page
-featimg: 8.jpg
+layout: case
 title: Page
 ---
 ## This is a static page
