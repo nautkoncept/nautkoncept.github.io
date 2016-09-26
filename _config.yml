@@ -67,11 +67,17 @@ prose:
     - file_name_and_front_matter_generator.html
   metadata:
     _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "Skriv din titel här"
       - name: "cat"
         field:
           element: "multiselect"
-          label: "Välj kategorier"
-          placeholder: "kategorier"
+          label: "Kategori"
+          placeholder: "Välj vilka kategorier posten tillhör"
+          type: "text"
           options:
             - name: "Case"
               value: "case"
