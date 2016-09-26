@@ -83,4 +83,4 @@ prose:
         field:
           element: "checkbox"
           label: "Publicerad"
-          value: "false"
+          value: "true"
