@@ -32,7 +32,7 @@
                     <div id=landing_blog>
 
                         {% for post in site.posts limit: 20%}
-                            {% if post.cat contains "pinned" and post.cat contains "case"%}
+                            {% if post.cat post.cat contains "case"%}
                                 {% include article_index_short.html %}
                             {% endif %}
                         {% endfor %}
