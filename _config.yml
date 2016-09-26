@@ -48,3 +48,4 @@ prose:
         - /_includes
         - _data
         - _plugins
+        - _site
