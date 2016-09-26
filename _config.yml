@@ -41,15 +41,29 @@ exclude: [.git, .gitignore, sass, .sass-cache, package.json, gruntfile.js, node_
 
 # prose.io configurations
 prose:
-  rooturl: '_posts'
-  siteurl: 'http://prose.github.io/starter/'
-  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
-  media: 'media'
-  ignore:
-    - index.md
+  rooturl: ''
+  siteurl: 'http://nautkoncept.se'
+ignore:
+    - index.html
     - _config.yml
     - /_layouts
     - /_includes
+    - _data
+    - _plugins
+    - _site
+    - archive
+    - css
+    - fonts
+    - img
+    - js
+    - page
+    - project
+    - sass
+    - typography
+    - 404.html
+    - CNAME
+    - feed.xml
+    - file_name_and_front_matter_generator.html
   metadata:
     _posts:
       - name: "layout"
