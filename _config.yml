@@ -41,6 +41,18 @@ exclude: [.git, .gitignore, sass, .sass-cache, package.json, gruntfile.js, node_
 
 # prose.io configurations
 prose:
+    metadata:
+    _posts:
+        - name: "cat"
+          field:
+            element: "multiselect"
+            label: "Välj Categori"
+            help: "Beroende på val bestäms vilken kategori posten tillhör"
+            options:
+              - name: "Case"
+                value: "case"
+              - name: "Education"
+                value: "edu"
     ignore:
         - index.html
         - _config.yml
