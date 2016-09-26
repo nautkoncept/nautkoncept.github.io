@@ -81,14 +81,8 @@ prose:
               value: "case"
             - name: "Education"
               value: "edu"
-            - name: ""
-    _posts/static:
-          - name: "layout"
+    _posts:
+          - name: "Title"
             field:
-              element: "hidden"
-              value: "page"
-          - name: "permalink"
-            field:
-              element: "text"
-              label: "Permalink"
-              value: ""
+              element: "title"
+              label: "Title"
