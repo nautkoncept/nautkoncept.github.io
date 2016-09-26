@@ -62,3 +62,16 @@ prose:
         - CNAME
         - feed.xml
         - file_name_and_front_matter_generator.html
+        
+    metadata:
+        _posts:
+            - name: "cat"
+                field:
+                element: "multiselect"
+                label: "Välj Categori"
+                placeholder: "Categori"
+                options:
+                - name: "case"
+                value: "case"
+                - name: "education"
+                value: "edu"
