@@ -41,4 +41,6 @@ exclude: [.git, .gitignore, sass, .sass-cache, package.json, gruntfile.js, node_
 
 # prose.io configurations
 prose:
-    rooturl: '_posts'
+    ignore:
+    - index.hml
+    - file_name_and_front_matter_generator.html
