@@ -67,7 +67,7 @@ prose:
     - file_name_and_front_matter_generator.html
   metadata:
     _posts:
-      - name: "tags"
+      - name: "cat"
         field:
           element: "multiselect"
           label: "Add Tags"
