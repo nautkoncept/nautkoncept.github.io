@@ -70,10 +70,12 @@ prose:
       - name: "cat"
         field:
           element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
+          label: "Välj kategorier"
+          placeholder: "kategorier"
           options:
             - name: "Case"
               value: "case"
             - name: "Education"
               value: "edu"
+            - name: "Pinned"
+              value: "pinned"
