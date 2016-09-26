@@ -43,7 +43,7 @@ exclude: [.git, .gitignore, sass, .sass-cache, package.json, gruntfile.js, node_
 prose:
   rooturl: ''
   siteurl: 'http://nautkoncept.se'
-ignore:
+  ignore:
     - index.html
     - _config.yml
     - /_layouts
