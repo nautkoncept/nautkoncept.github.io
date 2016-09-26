@@ -33,7 +33,7 @@
 
 
                         {% for post in site.posts limit: 20%}
-                            {% if post.cat post.cat contains "edu"%}
+                            {% if post.cat contains "edu"%}
                                 {% include article_index_short.html %}
                             {% endif %}
                         {% endfor %}
