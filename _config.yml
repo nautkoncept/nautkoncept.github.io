@@ -81,8 +81,7 @@ prose:
               value: "case"
             - name: "Education"
               value: "edu"
-    _posts:
-          - name: "Title"
-            field:
-              element: "title"
-              label: "Title"
+      - name: "Title"
+        field:
+          element: "title"
+          label: "Title"
