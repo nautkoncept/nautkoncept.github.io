@@ -68,11 +68,11 @@ prose:
   metadata:
     _posts:
       - name: "title"
-          field:
-            element: "text"
-            label: "Title"
-            placeholder: "Skriv din titel här"
-            type: "text"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "Skriv din titel här"
+          type: "text"
       - name: "cat"
         field:
           element: "multiselect"
