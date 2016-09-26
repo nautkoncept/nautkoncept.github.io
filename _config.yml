@@ -67,12 +67,6 @@ prose:
     - file_name_and_front_matter_generator.html
   metadata:
     _posts:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          placeholder: "Skriv din titel här"
-          type: "text"
       - name: "cat"
         field:
           element: "multiselect"
