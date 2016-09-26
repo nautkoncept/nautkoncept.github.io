@@ -7,6 +7,19 @@
 		<atom:link href="http://nautkoncept.se/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Your Filename</title>
+				
+				
+					<description>&lt;h2 id=&quot;a-new-post&quot;&gt;A New Post&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Mon, 26 Sep 2016 00:00:00 +0200</pubDate>
+				<link>http://nautkoncept.se/your-filename/</link>
+				<guid isPermaLink="true">http://nautkoncept.se/your-filename/</guid>
+			</item>
+		
+			<item>
 				<title>Yt</title>
 				
 				
@@ -28,42 +41,6 @@
 				<pubDate>Fri, 23 Sep 2016 00:00:00 +0200</pubDate>
 				<link>http://nautkoncept.se/youtube/</link>
 				<guid isPermaLink="true">http://nautkoncept.se/youtube/</guid>
-			</item>
-		
-			<item>
-				<title>blog2</title>
-				
-				
-					<description>&lt;p&gt;This is a test&lt;/p&gt;
-</description>
-				
-				<pubDate>Fri, 23 Sep 2016 00:00:00 +0200</pubDate>
-				<link>http://nautkoncept.se/blog2/</link>
-				<guid isPermaLink="true">http://nautkoncept.se/blog2/</guid>
-			</item>
-		
-			<item>
-				<title>This is a blog post cat edu</title>
-				
-				
-					<description>&lt;p&gt;This is a test&lt;/p&gt;
-</description>
-				
-				<pubDate>Fri, 23 Sep 2016 00:00:00 +0200</pubDate>
-				<link>http://nautkoncept.se/blog/</link>
-				<guid isPermaLink="true">http://nautkoncept.se/blog/</guid>
-			</item>
-		
-			<item>
-				<title>This is a blog post cat case</title>
-				
-				
-					<description>&lt;p&gt;This is a test&lt;/p&gt;
-</description>
-				
-				<pubDate>Thu, 22 Sep 2016 00:00:00 +0200</pubDate>
-				<link>http://nautkoncept.se/This-is-a-case-post/</link>
-				<guid isPermaLink="true">http://nautkoncept.se/This-is-a-case-post/</guid>
 			</item>
 		
 			<item>
