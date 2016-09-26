@@ -41,6 +41,7 @@ exclude: [.git, .gitignore, sass, .sass-cache, package.json, gruntfile.js, node_
 
 # prose.io configurations
 prose:
+  rooturl: ''
   siteurl: 'http://nautkoncept.se/'
   relativeLinks: 'http://nautkoncept.se/links.jsonp'
   ignore:
