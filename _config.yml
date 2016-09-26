@@ -67,10 +67,6 @@ prose:
     - file_name_and_front_matter_generator.html
   metadata:
     _posts:
-      - name: "title"
-        field:
-          element: "text"
-          type: "text"
       - name: "cat"
         field:
           element: "multiselect"
@@ -88,3 +84,7 @@ prose:
           element: "checkbox"
           label: "Publicerad"
           value: "true"
+      - name: "title"
+        field:
+          element: "text"
+          type: "text"
