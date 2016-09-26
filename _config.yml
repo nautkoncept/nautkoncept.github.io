@@ -67,11 +67,11 @@ prose:
     - file_name_and_front_matter_generator.html
   metadata:
     _posts:
-      - name: "tags"
+      - name: "Kategori"
         field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
+          element: "cat"
+          label: "Välj vilken kategori posten tillhör"
+          placeholder: "kategori"
           options:
             - name: "case"
               value: "case"
