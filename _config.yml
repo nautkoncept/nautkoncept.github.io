@@ -41,8 +41,10 @@ exclude: [.git, .gitignore, sass, .sass-cache, package.json, gruntfile.js, node_
 
 # prose.io configurations
 prose:
-  rooturl: ''
-  siteurl: 'http://nautkoncept.se'
+  rooturl: '/'
+  siteurl: 'http://prose.github.io/starter/'
+  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  media: 'media'
   ignore:
     - index.html
     - _config.yml
@@ -80,3 +82,14 @@ prose:
               value: "case"
             - name: "Education"
               value: "edu"
+            - name: ""
+    _posts/static:
+          - name: "layout"
+            field:
+              element: "hidden"
+              value: "page"
+          - name: "permalink"
+            field:
+              element: "text"
+              label: "Permalink"
+              value: ""
