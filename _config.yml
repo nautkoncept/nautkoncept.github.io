@@ -79,3 +79,8 @@ prose:
               value: "edu"
             - name: "Pinned"
               value: "pinned"
+      - name: "cat"
+        field:
+        element: "checkbox"
+        label: "Publicerad"
+        value: "true"
