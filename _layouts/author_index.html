@@ -45,9 +45,8 @@ layout: index
  </div>
 {% endfor %}
 
-{% for post in site.posts %}
-    {% if post.author contains page.author %}
+{% for post in paginator.posts %}
+    {% if post.cat contains "pinned" and post.cat contains "case" %}
         {% include article_index.html %}
-    {% endif %}
+    {%endif%}
 {% endfor %}
-
