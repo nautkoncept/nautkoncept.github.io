@@ -42,5 +42,7 @@ exclude: [.git, .gitignore, sass, .sass-cache, package.json, gruntfile.js, node_
 # prose.io configurations
 prose:
     ignore:
-    - index.hml
-    - file_name_and_front_matter_generator.html
+        - index.md
+        - _config.yml
+        - /_layouts
+        - /_includes
