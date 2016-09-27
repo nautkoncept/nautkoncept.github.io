@@ -82,10 +82,6 @@ prose:
               value: "pinned-video"
             - name: "Post på framsida"
               value: "pinned-post"
-            - name: "Vimeo"
-              value: "vimeo"
-            - name: "Youtube"
-              value: "youtube"
       - name: "published"
         field:
           element: "checkbox"
@@ -107,4 +103,4 @@ prose:
         field:
           element: "text"
           label: "Vimeo Embedding Code"
-          help: "Klistra in allt mellan &lt;iframe&gt;...&lt;/iframe&gt;. NOTERA: Om detta är en vanlig post måste du välja kategori vimeo för att det skall funka"
+          help: "Klistra in allt mellan &lt;iframe&gt;...&lt;/iframe&gt;."

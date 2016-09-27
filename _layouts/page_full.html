@@ -18,6 +18,11 @@
                         {% if page.featimg %}
                             <img class="featimg" src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{ page.featimg }}" alt="{{ page.featimg }}">
                         {% endif %}
+                        {% if page.vimeo-embed %}
+                            <div class="video_container">
+                                {{ page.vimeo-embed }}
+                            </div>
+                        {% endif %}
 
                         <h1 class="page_title">
                             {{ page.title }}
