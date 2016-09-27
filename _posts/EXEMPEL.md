@@ -1,5 +1,5 @@
 ---
-layout: page-full
+layout: page_full
 category:
  - pinned-post
  - edu
