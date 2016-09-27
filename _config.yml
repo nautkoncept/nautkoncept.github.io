@@ -103,4 +103,4 @@ prose:
         field:
           element: "text"
           label: "Vimeo Embedding Code"
-          help: "Klistra in allt mellan &lt;ifram&gt;...&lt;/ifram&gt;"
+          help: "Klistra in allt mellan &lt;iframe&gt;...&lt;/iframe&gt;"
