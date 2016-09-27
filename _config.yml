@@ -20,6 +20,7 @@ youtube: "#"
 vimeo: "#"
 soundcloud: "#"
 
+port: 9797
 gems: [jekyll-paginate]
 
 encoding: utf-8
@@ -67,7 +68,7 @@ prose:
     - file_name_and_front_matter_generator.html
   metadata:
     _posts:
-      - name: "cat"
+      - name: "category"
         field:
           element: "multiselect"
           label: "Kategori"
@@ -77,8 +78,10 @@ prose:
               value: "case"
             - name: "Education"
               value: "edu"
-            - name: "Pinned"
-              value: "pinned"
+            - name: "Video på framsida"
+              value: "pinned-video"
+            - name: "Post på framsida"
+              value: "pinned-post"
       - name: "published"
         field:
           element: "checkbox"
