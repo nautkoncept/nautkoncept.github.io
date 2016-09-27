@@ -24,6 +24,12 @@
                             </div>
                         {% endif %}
 
+                        {% if page.yt-video-id %}
+                            <div class="video_container">
+                                <iframe src="https://www.youtube.com/embed/{{page.yt-video-id}}?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        {% endif %}
+
                         <h1 class="page_title">
                             {{ page.title }}
                         </h1>

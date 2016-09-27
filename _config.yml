@@ -100,3 +100,8 @@ prose:
           element: "text"
           label: "Vimeo Embedding Code"
           help: "Klistra in allt mellan &lt;iframe&gt;...&lt;/iframe&gt;."
+      - name: "yt-video-id"
+        field:
+          element: "text"
+          label: "Youtube ID"
+          help: "youtube id finner du i adressfältet efter v="
