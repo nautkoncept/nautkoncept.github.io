@@ -103,4 +103,4 @@ prose:
         field:
           element: "text"
           label: "Vimeo Embedding Code"
-          help: "Set post type to vimeo in order for this to work"
+          help: "Klistra in allt mellan <ifram>...</ifram>"
