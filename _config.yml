@@ -99,3 +99,8 @@ prose:
         field:
           element: "hidden"
           value: page_full
+      - name: "vimeo-embed"
+        field:
+          element: "text"
+          label: "Vimeo Embedding Code"
+          help: "Set post type to vimeo in order for this to work"
