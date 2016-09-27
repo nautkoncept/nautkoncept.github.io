@@ -10,7 +10,6 @@
             {% include header.html %}
             {% include nav.html %}
         </header>
-        {% include search.html %}
         <section class="margin">
             <div class="content full">
                 <div class="content_container">
@@ -32,10 +31,8 @@
                     <div id=landing_blog>
 
 
-                        {% for post in site.posts limit: 20%}
-                            {% if post.cat contains "edu"%}
+                        {% for post in site.categories['edu'] %}
                                 {% include article_index_short.html %}
-                            {% endif %}
                         {% endfor %}
 
 

@@ -6,19 +6,15 @@ permalink: /:title/
 paginate: 12
 paginate_path: /page/:num/
 tag_dir: /tag
-category_dir: /category
-author_dir: /author
-author_title_prefix: 'Posted by '
 media_folder: /img
-author_default_avatar: /profile-pic.jpg
 tumblr:
 pinterest:
-instagram: "#"
+instagram:
 twitter: "#"
 facebook: "#"
-youtube: "#"
-vimeo: "#"
-soundcloud: "#"
+youtube:
+vimeo:
+soundcloud:
 
 port: 9797
 gems: [jekyll-paginate]
@@ -98,7 +94,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: page_full
+          value: post_full
       - name: "vimeo-embed"
         field:
           element: "text"

@@ -1,5 +1,5 @@
 ---
-layout: page_full
+layout: post_full
 date: '2016-09-27 10:16 +0200'
 published: true
 title: Arctic Lovebomb - Greenpeace gala at Kägelbanan in Stockholm.
