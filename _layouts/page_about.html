@@ -13,23 +13,11 @@
         <section class="margin">
             <div class="content full">
                 <div class="content_container">
+
                     <article>
                         {% if page.featimg %}
                             <img class="featimg" src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{ page.featimg }}" alt="{{ page.featimg }}">
                         {% endif %}
-
-                        {% if page.vimeo-embed %}
-                            <div class="video_container">
-                                {{ page.vimeo-embed }}
-                            </div>
-                        {% endif %}
-
-                        {% if page.yt-video-id %}
-                            <div class="video_container">
-                                <iframe src="https://www.youtube.com/embed/{{page.yt-video-id}}?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        {% endif %}
-
 
                         <h1 class="page_title">
                             {{ page.title }}
@@ -38,6 +26,7 @@
                             {{ content }}
                         </div>
                     </article>
+
                 </div>
             </div>
         </section>
