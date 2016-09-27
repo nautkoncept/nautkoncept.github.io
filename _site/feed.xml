@@ -6,5 +6,18 @@
 		<link>http://nautkoncept.se</link>
 		<atom:link href="http://nautkoncept.se/feed.xml" rel="self" type="application/rss+xml" />
 		
+			<item>
+				<title>CASE01</title>
+				
+				
+					<description>&lt;h2 id=&quot;case01&quot;&gt;CASE01&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Tue, 27 Sep 2016 10:10:00 +0200</pubDate>
+				<link>http://nautkoncept.se/case01/</link>
+				<guid isPermaLink="true">http://nautkoncept.se/case01/</guid>
+			</item>
+		
 	</channel>
 </rss>
