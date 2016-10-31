@@ -2,11 +2,12 @@
 
         {% if post.vimeo-embed %}
             <div class="video_container">{{ post.vimeo-embed }}</div>
+
             <h1 class="page_title">
                 {{ post.title }}
             </h1>
             <div class="post_content">
-                {{ content }}
+                {{ post.content }}
             </div>
         {% endif %}
 
