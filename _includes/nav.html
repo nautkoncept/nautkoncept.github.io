@@ -2,11 +2,16 @@
     <div class="content">
         <nav id="menu">
             <a class="toggle_link noline"><i class="fa fa-close fa-lg"></i></a>
-            <ul>
+            <div id=logo><a href=/>
+                 <span class=bold><i class="fa fa-anchor" aria-hidden="true"></i>Naut</span>
+                 <span class=slogo>koncepttveckling</span></a>
+            </div>
+            <!-- <ul>
             <li><a href="{{ site.baseurl | replace: '//', '/'  }}/">home</a>
             <li><a href="{{ site.baseurl | replace: '//', '/' }}/case">Case</a>
             <li><a href="{{ site.baseurl | replace: '//', '/' }}/education">edu</a>
             <li><a href="{{ site.baseurl | replace: '//', '/' }}/about">about</a>
+            </ul> -->
         </nav>
         <nav class="iconnav">
             <ul>
@@ -63,3 +68,32 @@
         </a>
     </div>
 </section>
+
+<style>
+#logo{
+    position: relative;
+    line-height: 4em;
+    font-family: 'Bungee Hairline', cursive;
+}
+#logo span.bold{
+    padding: 0;
+    margin: 0;
+    display: block;
+    font-size: 2em;
+    font-weight: 800;
+}
+#logo span.slogo{
+    position: absolute;
+        top: 16px;
+        left: 45px;
+        padding: 0;
+        margin: 0;
+        display: block;
+        font-size: 0.48em;
+}
+#menu>ul{
+    display: inline-block;
+    font-size: 1em;
+}
+
+</style>

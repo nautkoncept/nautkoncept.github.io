@@ -2,10 +2,22 @@
 
         {% if post.vimeo-embed %}
             <div class="video_container">{{ post.vimeo-embed }}</div>
+            <h1 class="page_title">
+                {{ post.title }}
+            </h1>
+            <div class="post_content">
+                {{ content }}
+            </div>
         {% endif %}
 
         {% if post.yt-video-id %}
             <div class="video_container"><iframe src="https://www.youtube.com/embed/{{ post.yt-video-id }}?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></div>
+            <h1 class="page_title">
+                {{ post.title }}
+            </h1>
+            <div class="post_content">
+                {{ post.content }}
+            </div>
         {% endif %}
 
         {% if post.audio-embed %}
