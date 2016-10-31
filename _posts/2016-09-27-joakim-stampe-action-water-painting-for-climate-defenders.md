@@ -2,14 +2,13 @@
 layout: post_full
 date: '2016-09-27 12:23 +0200'
 published: true
-title: Joakim Stampe - Action water painting for climate defenders
+title: Ekobristen - En affärsmöjlighet för svenskt lantbruk.
 category:
   - edu
   - pinned-video
   - pinned-post
-vimeo-embed: >-
-  <iframe src="https://player.vimeo.com/video/80901173" width="640" height="272"
-  frameborder="0" webkitallowfullscreen mozallowfullscreen
-  allowfullscreen></iframe>
+yt-video-id: uqMxNx-i-XU
 ---
-This is an improvised tribute to the 30 activists and journalists who were brutally seized by Russian security forces in the Barents Sea. At the time of Joakim Stampe's performance, these climate defenders were facing long sentences in Russia for "hooliganism" -- for peacefully trying to call attention to the mindless oil drilling in the Arctic.
+Den svenska försäljningen av ekologisk mat ökar snabbast i världen, men svenska bönder avvaktar med att investera i ekologisk produktion. Frågan är vem som ska förse handel, livsmedelsindustri och offentlig sektor med ekologiska råvaror när dessa ökar sina inköp. Det borde vara svenskt lantbruk. 
+
+Kampanjen bliekobonde.nu är ett initiativ av Ekologiska Lantbrukarna med syfte att motivera fler bönder att överväga omställning till ekologisk produktion. Kampanjen är framtagen i samarbete med Arla, Oxford, Coop, HKScan och KRAV. 
