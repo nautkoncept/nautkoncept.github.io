@@ -14,7 +14,7 @@
 	z-index: 2;
 }
 .videoWrapper div#overlay{
-	background: black;
+	background: white;
 	position: absolute;
 	top: 0;
 	left: 0;
