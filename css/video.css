@@ -4,7 +4,6 @@
 	padding-top: 0px;
 	height: 0;
 	z-index: 1;
-	display: none;
 }
 #videoWrapper iframe {
 	position: absolute;

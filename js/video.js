@@ -34,7 +34,6 @@ function onYouTubeIframeAPIReady(id) {
 function loadVideo(id){
     player.loadVideoById(id,0,'highres')
     document.getElementById('overlay').style.background = "transparent"
-    document.getElementById('videoWrapper').style.display = "block"
 }
 
 // 4. The API will call this function when the video player is ready.
