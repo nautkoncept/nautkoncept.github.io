@@ -1,0 +1,65 @@
+#loader_stage {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: white;
+        z-index: 9999;
+        color: rgba(0, 0, 0, .4);
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Bungee Hairline', cursive;
+        margin: 0 auto;
+        -webkit-perspective: 1200px;
+        -moz-perspective: 1200px;
+        -ms-perspective: 1200px;
+        perspective: 1200px;
+    }
+    #spinner {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        /* Find out what does preserve 3D mean within this engine?????
+            -webkit-transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            -ms-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            */
+    }
+    @media(max-width:767px) {
+        #loader_stage {
+            font-size: 40px;
+        }
+    }
+}
+
+/* WebKit and Opera browsers */
+@-webkit-keyframes spinner {
+    from {
+        -webkit-transform: rotateY(0deg);
+    }
+
+    to {
+        -webkit-transform: rotateY(-360deg);
+    }
+}
+
+/* all other browsers */
+@keyframes spinner {
+    from {
+        -moz-transform: translate(-50%, -50%) rotateY(0deg);
+        -ms-transform: translate(-50%, -50%) rotateY(0deg);
+        transform: translate(-50%, -50%) rotateY(0deg);
+    }
+
+    to {
+        -moz-transform: translate(-50%, -50%) rotateY(-360deg);
+        -ms-transform: translate(-50%, -50%) rotateY(-360deg);
+        transform: translate(-50%, -50%) rotateY(-360deg);
+    }
+}

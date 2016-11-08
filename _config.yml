@@ -3,19 +3,7 @@ logo: NAUT
 name: nautkoncept.se
 description: Konceptutveckling AB
 url: http://nautkoncept.se
-permalink: /:title/
-paginate: 12
-paginate_path: /page/:num/
-tag_dir: /tag
 media_folder: /img
-tumblr:
-pinterest:
-instagram:
-twitter: "#"
-facebook: "#"
-youtube:
-vimeo:
-soundcloud:
 
 port: 9797
 gems: [jekyll-paginate]
@@ -27,7 +15,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "shell"
       type: "standard"
       homedisplay: "featimg"
 markdown: kramdown
@@ -48,24 +36,9 @@ prose:
     - /_layouts
     - /_includes
     - _data
-    - _plugins
-    - _site
-    - archive
-    - about
-    - case
-    - education 
     - css
-    - fonts
-    - img
-    - js
-    - page
-    - project
-    - sass
-    - typography
     - 404.html
     - CNAME
-    - feed.xml
-    - file_name_and_front_matter_generator.html
   metadata:
     _posts:
       - name: "category"
