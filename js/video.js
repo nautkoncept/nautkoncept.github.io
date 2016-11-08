@@ -34,6 +34,7 @@ function onYouTubeIframeAPIReady(id) {
 function loadVideo(id){
     console.log(id)
     player.loadVideoById(id,0,'highres')
+    document.getElementById('overlay').style.background = "transparent"
 }
 
 // 4. The API will call this function when the video player is ready.
@@ -54,6 +55,7 @@ function onPlayerStateChange(event) {
                 $('body').css('overflow', 'auto')
                 $('body').unbind('touchmove')
         })
+        document.getElementById('overlay').style.background = "transparent"
     }
     if (event.data == 0){
         player.seekTo(0)
