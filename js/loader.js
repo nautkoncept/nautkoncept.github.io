@@ -2,13 +2,7 @@ $(document).ready(function() {
     $('body').bind('touchmove', function(e) {
         e.preventDefault()
     })
-    $.when($("#loader_stage")
-        .delay(0)
-        .fadeOut(300))
-        .done(function() {
-            $('body').css('overflow', 'auto')
-            $('body').unbind('touchmove')
-    })
+
 })
 
 $("#spinner").css({
