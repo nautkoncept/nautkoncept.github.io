@@ -2,4 +2,5 @@ ul#selection li{
     width:50%;
     height: 50%;
     float: left;
+    background-size: 100%;
 }
