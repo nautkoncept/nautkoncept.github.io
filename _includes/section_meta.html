@@ -1,2 +1,6 @@
 <section id=section_meta>
+{% for video in site.data.videos %}
+    {% if video.vimeo-embed %} <div class="video_container">{{ video.vimeo-embed }}</div> {% endif %}
+    {% if video.yt-video-id %} <button onclick="loadVideo('{{ video.yt-video-id}}')">{{ video.title }}</button>{% endif %}
+{% endfor %}
 </section>
