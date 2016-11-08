@@ -1,11 +1,12 @@
-.videoWrapper {
+#videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 0px;
 	height: 0;
 	z-index: 1;
+	display: none;
 }
-.videoWrapper iframe {
+#videoWrapper iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -13,7 +14,7 @@
 	height: 100%;
 	z-index: 2;
 }
-.videoWrapper div#overlay{
+#videoWrapper div#overlay{
 	background: white;
 	position: absolute;
 	top: 0;
