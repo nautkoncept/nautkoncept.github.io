@@ -1,12 +1,13 @@
 <section id=section_video>
+<div class="videoWrapper"><div id=player></div> </div>
 {% for post in site.posts %}
 <article>
-    {% if post.vimeo-embed %} <div class="video_container">{{ post.vimeo-embed }}</div> {% endif %}
-    {% if post.yt-video-id %} <div class="videoWrapper"><div id=player></div> </div> {% endif %}
+    <!-- {% if post.vimeo-embed %} <div class="video_container">{{ post.vimeo-embed }}</div> {% endif %}
+    {% if post.yt-video-id %} <div class="videoWrapper"><div id=player></div> </div> {% endif %} -->
 </article>
 
 
-<button onclick="loadVideo('{{ post.yt-video-id}}')">Load Video 1</button>
+<button onclick="loadVideo('{{ post.yt-video-id}}')">{{ post.title }}</button>
 
 {% endfor %}
 </section>
