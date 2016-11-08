@@ -46,7 +46,7 @@ function onPlayerReady(event) {
 //    the player should play for six seconds and then stop.
 var done = false;
 function onPlayerStateChange(event) {
-    if (event.data == 1 || event.data == -1){             // playing
+    if (event.data == 1){             // playing
         $.when($("#loader_stage")
             .delay(0)
             .fadeOut(300))
@@ -55,6 +55,15 @@ function onPlayerStateChange(event) {
                 $('body').unbind('touchmove')
         })
         document.getElementById('overlay').style.background = "transparent"
+    }
+    if (event.data == -1){             // playing
+        $.when($("#loader_stage")
+            .delay(0)
+            .fadeOut(300))
+            .done(function() {
+                $('body').css('overflow', 'auto')
+                $('body').unbind('touchmove')
+        })
     }
     if (event.data == 0){
         player.seekTo(0)
