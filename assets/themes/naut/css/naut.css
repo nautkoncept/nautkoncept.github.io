@@ -1,0 +1,43 @@
+#header{
+    background-image: url("/assets/themes/naut/img/logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    height: 150px;
+}
+
+ul#selection li{
+    width:100%;
+    height: 150px;
+    float: left;
+    background-size: 100%;
+}
+
+
+
+/*###################### youtube player */
+
+#youtube-player{
+    position: fixed;
+    top: 99999999999990;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+
+#videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 0px;
+	height: 0;
+	z-index: 1;
+}
+#videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
