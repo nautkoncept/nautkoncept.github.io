@@ -17,7 +17,7 @@ function onYouTubeIframeAPIReady(id) {
         width: '560',
         videoId: 'b-3UgtZ0Gek',
         suggestedQuality: 'highres',
-        playsinline = 1,
+        playsinline: 1,
         playerVars: {
             modestbranding: 1,
             controls: 0,
