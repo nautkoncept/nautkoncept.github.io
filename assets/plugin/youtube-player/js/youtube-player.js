@@ -62,4 +62,5 @@ function onPlayerStateChange(event) {
 
 function removePlayer(){
     document.getElementById('youtube-player').style.display = "none"
+    player.stopVideo()
 }
