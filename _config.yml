@@ -1,31 +1,6 @@
-destination: ../site
-logo: NAUT
-name: nautkoncept.se
-description: Konceptutveckling AB
-url: http://nautkoncept.se
-media_folder: /img
 
-port: 9797
-gems: [jekyll-paginate]
 
-encoding: utf-8
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "shell"
-      type: "standard"
-      homedisplay: "featimg"
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-relative_permalinks: false
-exclude: [.git, .gitignore, sass, .sass-cache, package.json, gruntfile.js, node_modules, README.md, documentation]
-
-# prose.io configurations
+####################################################### prose.io configurations
 prose:
   rooturl: ''
   siteurl: 'http://nautkoncept.se/'

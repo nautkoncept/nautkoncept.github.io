@@ -1,8 +1,0 @@
-<section id=section_video_selection>
-<ul id=selection>
-{% for video in site.data.videos %}
-    {% if video.vimeo-embed %} <div class="video_container">{{ video.vimeo-embed }}</div> {% endif %}
-    {% if video.yt-video-id %} <li style="background: url('/img/{{ video.img }}');background-size:cover;" onclick="loadVideo('{{ video.yt-video-id}}')"></li>{% endif %}
-{% endfor %}
-<ul>
-</section>
