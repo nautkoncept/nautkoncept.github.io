@@ -23,7 +23,7 @@ function onYouTubeIframeAPIReady(id) {
             disablekb: 1,
             showinfo: 0,
             nologo: 1,
-            playsinline: 1,
+            playsinline: 1
         },
         events: {
             'onReady': onPlayerReady,
