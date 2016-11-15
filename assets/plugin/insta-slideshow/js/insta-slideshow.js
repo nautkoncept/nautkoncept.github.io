@@ -12,7 +12,7 @@ $(window).on('load', function(e) {
                     .end()
                     .appendTo('#insta-slider');
             },
-            5000);
+            4000);
     });
 
 
