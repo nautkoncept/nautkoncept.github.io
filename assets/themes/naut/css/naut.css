@@ -48,8 +48,6 @@ ul#selection section#selection-meta b {
   color: #36a2eb; }
 
 footer {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
   position: relative;
   background: #36a2eb;
   color: white;
@@ -66,11 +64,11 @@ footer h2 {
   font-family: 'Bungee hairline', cursive; }
 
 footer p {
-  padding: 5%;
+  padding: 10%;
   font-size: 1em; }
 
 footer address {
-  padding: 10% 5%; }
+  padding: 10%; }
 
 footer table {
   color: white;
