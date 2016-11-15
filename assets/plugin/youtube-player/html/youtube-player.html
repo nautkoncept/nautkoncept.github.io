@@ -1,0 +1,17 @@
+<section id=youtube-player onclick=removePlayer()>
+
+<div id=player-top></div>
+
+<div id="videoWrapper">
+    <div id=player></div>
+</div>
+</section>
+
+<section id=player_selection>
+<ul id=selection>
+{% for video in site.data.naut.videos %}
+    {% if video.vimeo-embed %} <div class="video_container">{{ video.vimeo-embed }}</div> {% endif %}
+    {% if video.yt-video-id %} <li style="background: url('/assets/themes/naut/img/{{ video.img }}');background-size:cover;" onclick="loadVideo('{{ video.yt-video-id}}')"></li>{% endif %}
+{% endfor %}
+<ul>
+</section>
