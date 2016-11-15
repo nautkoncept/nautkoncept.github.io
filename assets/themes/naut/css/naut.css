@@ -53,7 +53,7 @@ footer {
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   margin-top: 40px;
-  padding: 5%; }
+  padding: 15% 5%; }
 
 footer h2 {
   padding-left: 5%;
@@ -76,7 +76,8 @@ footer table th {
   text-align: left; }
 
 footer table tr > td {
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  line-height: 1.5em; }
 
 footer table td {
   opacity: 0.8; }
@@ -89,7 +90,7 @@ footer table#social {
   font-size: 2em; }
 
 footer table#social tr > td {
-  padding-bottom: 40px; }
+  padding-bottom: 0px; }
 
 .fa {
   font-size: 1em !important;
