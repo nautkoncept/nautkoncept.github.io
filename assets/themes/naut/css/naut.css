@@ -53,9 +53,7 @@ footer {
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   margin-top: 40px;
-  -webkit-box-shadow: 10px -4px 37px -15px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px -4px 37px -15px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px -4px 37px -15px rgba(0, 0, 0, 0.75); }
+  padding: 5%; }
 
 footer h2 {
   padding-left: 5%;
@@ -64,7 +62,7 @@ footer h2 {
   font-family: 'Bungee hairline', cursive; }
 
 footer p {
-  padding: 10%;
+  padding: 2%;
   font-size: 1em; }
 
 footer address {
@@ -94,11 +92,11 @@ footer table#social tr > td {
   padding-bottom: 40px; }
 
 .fa {
-  font-size: 2em !important;
-  background: white;
-  color: #36a2eb;
-  padding: 20px;
-  border-radius: 10px; }
+  font-size: 1em !important;
+  border: 1px solid white;
+  color: white;
+  padding: 8px;
+  border-radius: 6px; }
 
 body {
   color: #777;

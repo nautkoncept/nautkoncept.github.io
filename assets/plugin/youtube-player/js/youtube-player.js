@@ -45,15 +45,6 @@ function onPlayerReady(event) {
 
 var done = false;
 function onPlayerStateChange(event) {
-    if (event.data == -1){
-        $.when($("#loader_stage")
-            .delay(0)
-            .fadeOut(300))
-            .done(function() {
-                $('body').css('overflow', 'auto')
-                $('body').unbind('touchmove')
-        })
-    }
     if (event.data == 0){
         player.seekTo(0)
         player.stopVideo()
