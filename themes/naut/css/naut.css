@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee+Hairline");
+@import url("https://fonts.googleapis.com/css?family=Bungee|Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+#header {
+  background-image: url("/assets/themes/naut/img/logo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  height: 150px; }
+
+ul#selection li {
+  width: 100%;
+  float: left;
+  background-size: 100%; }
+
+ul#selection img {
+  width: 100%;
+  background-size: cover; }
+
+ul#selection section#selection-meta {
+  height: 40%;
+  padding: 5%; }
+
+ul#selection section#selection-meta h2 {
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #36a2eb;
+  font-size: 16px;
+  margin-bottom: 2px;
+  margin-left: 0; }
+
+ul#selection section#selection-meta span {
+  margin-top: 12px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-size: 0.8em; }
+
+ul#selection section#selection-meta span.selection-cred-left {
+  float: left;
+  width: 50%; }
+
+ul#selection section#selection-meta span.selection-cred-right {
+  float: right;
+  width: 50%; }
+
+ul#selection section#selection-meta b {
+  font-weight: 800;
+  color: #36a2eb; }
+
+footer {
+  position: relative;
+  background: #36a2eb;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 40px;
+  padding: 5%; }
+
+footer h2 {
+  padding-left: 5%;
+  font-size: 2em;
+  line-height: 3em;
+  font-family: 'Bungee hairline', cursive; }
+
+footer p {
+  padding: 2%;
+  font-size: 1em; }
+
+footer address {
+  padding: 10% 2%; }
+
+footer table {
+  color: white;
+  width: 100%; }
+
+footer table th {
+  text-align: left; }
+
+footer table tr > td {
+  padding-bottom: 40px; }
+
+footer table td {
+  opacity: 0.8; }
+
+footer li {
+  width: 50%; }
+
+footer table#social {
+  text-align: center;
+  font-size: 2em; }
+
+footer table#social tr > td {
+  padding-bottom: 40px; }
+
+.fa {
+  font-size: 1em !important;
+  border: 1px solid white;
+  color: white;
+  padding: 8px;
+  border-radius: 6px; }
+
+body {
+  color: #777;
+  font-family: 'Bungee hairline', cursive; }
+
+.clearfix {
+  overflow: auto;
+  zoom: 1; }
+
+p {
+  font-size: 1.4em;
+  margin-bottom: 13px;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.3em;
+  -webkit-font-smoothing: antialiased;
+  text-align: justify; }
