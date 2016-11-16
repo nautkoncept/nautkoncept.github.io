@@ -110,7 +110,11 @@ footer {
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   margin-top: 40px;
-  padding: 0 5% 15%; }
+  padding: 0 5% 15%;
+  webkit-box-shadow: inset 0px 18px 37px -23px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0px 18px 37px -23px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 18px 37px -23px rgba(0, 0, 0, 0.5);
+  z-index: 999999; }
 
 footer h2 {
   padding-top: 15%;
