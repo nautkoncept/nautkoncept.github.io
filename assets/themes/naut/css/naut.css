@@ -119,8 +119,8 @@ footer {
 
 footer h2 {
   padding-top: 15%;
-  font-size: 2em;
-  line-height: 3em;
+  font-size: 18px;
+  line-height: 66px;
   font-family: 'Bungee hairline', cursive; }
 
 footer p {
@@ -191,7 +191,11 @@ footer table td#social i {
     padding: 1%;
     margin-top: 0;
     line-height: 1.5em;
-    font-size: 16px; }
+    font-size: 16px;
+    max-width: 400px; }
+
+  footer img {
+    max-width: 400px; }
 
   footer table td#social i {
     margin-right: 5%; } }
