@@ -17,12 +17,37 @@
     background-size: 30%; } }
 @media (min-width: 900px) {
   #header {
+    position: fixed;
+    top: 0;
+    left: 0;
     background-position: right 30px center;
     background-size: 12%;
-    height: 119px; } }
+    height: 120px;
+    width: 100%;
+    z-index: -1; } }
 @media (min-width: 1500px) {
   #header {
     background-size: 10%; } }
+#player-selection {
+  z-index: 1;
+  background: white;
+  overflow-y: scroll; }
+
+#shadow-top {
+  margin-bottom: -150px;
+  height: 150px;
+  width: 100%;
+  -webkit-box-shadow: inset 0 -9px 52px -8px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: inset 0 -9px 52px -8px rgba(0, 0, 0, 0.36);
+  box-shadow: inset 0 -9px 52px -8px rgba(0, 0, 0, 0.16);
+  overflow: auto; }
+
+#shadow-bottom {
+  width: 100%;
+  -webkit-box-shadow: inset 0 9px 52px -8px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: inset 0 9px 52px -8px rgba(0, 0, 0, 0.36);
+  box-shadow: inset 0 9px 52px -8px rgba(0, 0, 0, 0.16); }
+
 ul#selection li {
   width: 100%;
   float: left;
@@ -38,7 +63,6 @@ ul#selection section#selection-meta {
 ul#selection section#selection-meta h2 {
   line-height: 44px;
   text-transform: uppercase;
-  color: #36a2eb;
   font-size: 20px;
   margin-bottom: 2px;
   margin-left: 0; }
@@ -62,6 +86,10 @@ ul#selection section#selection-meta b {
   color: #86C7F3; }
 
 @media (min-width: 900px) {
+  #shadow-top {
+    margin-bottom: 0;
+    height: 120px; }
+
   ul#selection li {
     width: 50%; }
 
@@ -105,16 +133,11 @@ ul#selection section#selection-meta b {
     transition-timing-function: ease-in;
     transition: 1s; } }
 footer {
-  position: relative;
   background: #86C7F3;
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   margin-top: 40px;
   padding: 0 5% 15%;
-  -webkit-box-shadow: inset 0 9px 52px -8px rgba(0, 0, 0, 0.36);
-  -moz-box-shadow: inset 0 9px 52px -8px rgba(0, 0, 0, 0.36);
-  box-shadow: inset 0 9px 52px -8px rgba(0, 0, 0, 0.16);
-  z-index: 999999;
   z-index: 999999; }
 
 footer h2 {
@@ -167,6 +190,13 @@ footer table td#social i {
 
 @media (min-width: 900px) {
   footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1; }
+
+  footer {
     padding: 0;
     font-size: 16px; }
 
@@ -177,7 +207,7 @@ footer table td#social i {
   #contact,
   #insta,
   #about {
-    width: 23.33399999999%;
+    width: 23.2%;
     padding: 0 5% 3%;
     float: left; }
 
@@ -199,13 +229,20 @@ footer table td#social i {
 
   footer table td#social i {
     margin-right: 5%; } }
+@media (min-width: 1400px) {
+  footer {
+    padding-bottom: 20px; } }
 body {
   color: #777;
-  font-family: 'Bungee hairline', cursive; }
+  font-family: 'Bungee hairline', cursive;
+  position: auto; }
 
 .clearfix {
   overflow: auto;
   zoom: 1; }
+
+::-webkit-scrollbar {
+  display: none; }
 
 p {
   font-size: 1.4em;
