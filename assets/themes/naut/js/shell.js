@@ -1,5 +1,4 @@
 $(window).on('load', function(e) {
-    
     document.getElementById('player-top').style.height = (window.innerHeight - document.getElementById('videoWrapper').offsetHeight) / 2 + 'px'
     if ($(window).width() >= "900") {
         document.getElementById('shadow-bottom').style.height = ($('#footer h2').height() *2) + $('#insta-img').height()
@@ -8,6 +7,10 @@ $(window).on('load', function(e) {
     }
 
     document.getElementById('insta').style.height = $('#footer h2').height()  + $('#insta-img').height()
+
+})
+
+$(document).ready(function() {
 
     var userFeed = new Instafeed({
         get: 'user',
