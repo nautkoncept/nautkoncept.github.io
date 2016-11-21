@@ -1,12 +1,12 @@
-// var frame = document.getElementById('section_video').offsetHeight;
-
-$(document).ready(function() {
+$(window).on('load', function(e) {
+    
     document.getElementById('player-top').style.height = (window.innerHeight - document.getElementById('videoWrapper').offsetHeight) / 2 + 'px'
     if ($(window).width() >= "900") {
         document.getElementById('shadow-bottom').style.height = ($('#footer h2').height() *2) + $('#insta-img').height()
         document.getElementById('footer').style.height = $('#shadow-bottom').height()
 
     }
+
     document.getElementById('insta').style.height = $('#footer h2').height()  + $('#insta-img').height()
 
     var userFeed = new Instafeed({
