@@ -58,8 +58,7 @@ ul#selection li {
   overflow: hidden; }
 
 ul#selection img {
-  width: 100%;
-  opacity: 0.9; }
+  width: 100%; }
 
 ul#selection section#selection-meta {
   padding: 5%; }
