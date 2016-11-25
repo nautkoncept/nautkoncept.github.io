@@ -1,0 +1,30 @@
+<footer id=footer class=clearfix>
+    <section id=insta >
+        <h2>Instagram</h2>
+        <div id=instagram>
+            <img id=insta-img src="/assets/themes/naut/img/insta.jpg">
+        </div>
+
+    </section>
+{% for settings in site.data.naut.settings %}
+
+<section id=about>
+    <h2>Om oss</h2>
+    <p>{{settings.about}}</p>
+</section>
+
+    <section id=contact>
+        <h2>kontakta</h2>
+        <address>
+            <table>
+                <tr><th>ADRESS</th><td>Hittapågatan 24<br>413 00 GBG</td></tr>
+                <tr><th>E-POST</th><td>{{settings.email}}</td></tr>
+                <tr><th>TEL</th><td>+46 (0) 000 00 00</td></tr>
+                <tr><th>Socialt</th><td id=social><i class="fa fa-linkedin" aria-hidden="true"></i><i class="fa fa-instagram" aria-hidden="true"></i></td></tr>
+            </table>
+        </address>
+    </section>
+
+
+</footer>
+{%endfor%}

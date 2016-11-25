@@ -1,0 +1,29 @@
+<div id=shadow-top></div>
+<section id=player-selection>
+
+<ul id=selection class=clearfix>{% for video in site.data.naut.videos %}
+
+
+    <!-- {% if video.vimeo-embed %} <div class="video_container">{{ video.vimeo-embed }}</div> {% endif %} -->
+    {% if video.yt-video-id %}
+        <li class=section onclick="loadVideo('{{ video.yt-video-id}}')"  >
+            <img src="/assets/themes/naut/img/{{ video.img }}"; />
+            <section id=selection-meta >
+                <h2>{{video.title}}</h2>
+                <p>{{video.description}}</p>
+                <div>
+                    <span class=selection-cred-left><b>foto:</b> {{video.foto}}</span>
+                    <span class=selection-cred-right><b>cred:</b> {{video.cred}}</span>
+                </div>
+
+            </section>
+        </li>
+    {% endif %}
+
+
+
+{% endfor %}</ul>
+
+
+</section>
+<div id=shadow-bottom ></div>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang=eng>
+<head>
+
+    <!-- META ############################################ -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+    <title>{{ site.site }}{% if page.title %} - {{ page.title }} {% endif%}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    {% if post.author %}<meta name="author" content="{{ post.author }}"> {% endif %}
+
+    <!-- FACEBOOK -->
+    {% if page.path == 'index.html'  %}
+    <meta property="og:url"         content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:type"        content="article" />
+    <meta property="og:title"       content="{{ site.site }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:image"       content="{{ site.url }}/images/posts/{{ site.thumb }}" />
+    {% else %}
+    <meta property="og:url"         content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:type"        content="article" />
+    <meta property="og:title"       content="{{ page.title }}" />
+    <meta property="og:description" content="{{ post.excerpt }}" />
+    <meta property="og:image"       content="{{ site.url }}assets/themes/{{ site.layout }}/img/{{ post.feat_image }}" />
+    {% endif %}
+
+    <!-- TWITTER  -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@{{site.twitter}}" />
+    <meta name="twitter:image:src" content="{{ site.url }}/assets/images/posts/{{ post.feat_image }}">
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    <meta name="twitter:title" content="{{ page.title }}" />
+    <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}">
+    <meta name="twitter:title" content="{{ site.name }}" />
+    <meta name="twitter:description" content="{{ site.description }}" />
+
+    <!-- STYLESHEETS ####################################### -->
+
+    {% include plugins/css/reset.html %}
+    {% include plugins/css/splash.html %}
+    {% include plugins/css/youtube.html %}
+    {% include plugins/css/instagram.html %}
+    {% include plugins/css/fontawesome.html %}
+    {% include themes/naut/css.html %}
+
+
+    <!-- OLD BROWSER  ################################# -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+        {% include plugins/html/splash.html %}
+<div id=shell>
+
+    {% include themes/naut/___header.html %}
+    {% include plugins/html/youtube.html %}
+    {% include themes/naut/__portfolio.html %}
+    {% include themes/naut/_footer.html %}
+</div>
+    {% include plugins/js/jquery.html %}
+    {% include plugins/js/instagram.html %}
+    {% include plugins/js/youtube.html %}
+    {% include themes/naut/js.html %}
+    {% include plugins/js/splash.html %}
+</body>
+</html>
