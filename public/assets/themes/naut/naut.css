@@ -86,6 +86,19 @@ a{
     z-index: 1;
     background: white;
     overflow-y: scroll;
+    position: relative;
+}
+#playBtn{
+    width: 30px;
+        height: 30px;
+        background: url(img/playBtn.png);
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-size: 100%;
+        margin: 10px;
+        opacity: 0.6;
 }
 #shadow-top{
     background-image: url('img/sd-top.png');
@@ -110,6 +123,7 @@ ul#selection li {
     float: left;
     cursor: pointer;
     overflow: hidden;
+    position: relative;
 }
 
 ul#selection img {

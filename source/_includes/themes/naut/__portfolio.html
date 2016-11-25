@@ -7,6 +7,7 @@
     <!-- {% if video.vimeo-embed %} <div class="video_container">{{ video.vimeo-embed }}</div> {% endif %} -->
     {% if video.yt-video-id %}
         <li class=section onclick="loadVideo('{{ video.yt-video-id}}')"  >
+            <span id=playBtn></span>
             <img src="/assets/themes/naut/img/{{ video.img }}"; />
             <section id=selection-meta >
                 <h2>{{video.title}}</h2>
