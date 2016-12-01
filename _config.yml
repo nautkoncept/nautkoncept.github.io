@@ -1,5 +1,4 @@
-source: source
-destination: build
+destination: ../build
 port: 5000
 site: Naut Konceptutveckling
 email: info@nautkoncept.se
