@@ -6,11 +6,11 @@
         </div>
 
     </section>
-{% for settings in site.data.naut.settings %}
+
 
 <section id=about>
     <h2>Om oss</h2>
-    <p>{{settings.description}}</p>
+    <p>{{site.data.naut.settings.description}}</p>
 </section>
 
     <section id=contact>
@@ -18,7 +18,7 @@
         <address>
             <table>
                 <tr><th>ADRESS</th><td>Hittapågatan 24<br>413 00 GBG</td></tr>
-                <tr><th>E-POST</th><td>{{settings.email}}</td></tr>
+                <tr><th>E-POST</th><td>{{site.data.naut.settings.email}}</td></tr>
                 <tr><th>TEL</th><td>+46 (0) 000 00 00</td></tr>
                 <tr><th>Socialt</th><td id=social><i class="fa fa-linkedin" aria-hidden="true"></i><i class="fa fa-instagram" aria-hidden="true"></i></td></tr>
             </table>
@@ -27,4 +27,3 @@
 
 
 </footer>
-{%endfor%}
