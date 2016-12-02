@@ -28,3 +28,10 @@ prose:
               field:
                   element: "text"
                   label: "title"
+            - name: "img"
+              field:
+                  element: "img"
+                  label: "bild"
+                  help: "ange namnet på bilden som da lade till tidigare, glöm inte att du måste ange filendelsen."
+                  placeholder: ex.jpg
+                  type: "text"
