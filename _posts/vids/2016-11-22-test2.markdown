@@ -1,8 +1,0 @@
----
-title: 'Joakim Stampe'
-img: 'js.jpg'
-yt-video-id: Y5JKdjjX0SI
-description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu dictum tellus. Quisque pharetra tempus velit non volutpat. Donec arcu ipsum, vestibulum quis ex eget, euismod blandit velit. '
-cred: 'Andree Ray'
-foto: 'Linus Wiik'
----
