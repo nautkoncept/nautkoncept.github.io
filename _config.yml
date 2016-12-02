@@ -20,3 +20,10 @@ prose:
         - index.html
         - feed.xml
         - _config.yml
+        - CNAME
+    metadata:
+        _posts:
+            - name: "title"
+              field:
+                  element: "text"
+                  label: "title"
