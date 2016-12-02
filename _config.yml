@@ -63,3 +63,8 @@ prose:
                   label: "Foto"
                   help: "Vem har skött kameran?"
                   placeholder: "Pelle Svanslös"
+            - name: "published"
+              field:
+                  element: "checkbox"
+                  label: "Publiserad"
+                  value: false
