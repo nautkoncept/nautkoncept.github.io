@@ -17,4 +17,4 @@ prose:
     siteurl: 'http://nautkoncept.se/'
     relativeLinks: 'http://nautkoncept.se/links.jsonp'
     media: 'assets/themes/naut/img'
-    ignore: index.md
+    ignore: index.html
