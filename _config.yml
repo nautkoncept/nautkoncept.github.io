@@ -23,7 +23,7 @@ prose:
         - CNAME
         - css
     metadata:
-        _posts:
+        _posts/vids:
             - name: "title"
               field:
                   element: "text"
