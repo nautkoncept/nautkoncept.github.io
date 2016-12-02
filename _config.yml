@@ -21,6 +21,7 @@ prose:
         - feed.xml
         - _config.yml
         - CNAME
+        - css
     metadata:
         _posts:
             - name: "title"
