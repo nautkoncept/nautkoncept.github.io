@@ -18,3 +18,4 @@ prose:
     media: "assets/themes/naut/img"
     ignore:
         - index.html
+        - feed.xml
