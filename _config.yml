@@ -14,7 +14,6 @@ company_desc: wimse är en komplett och kreativ webbbyrå belägen i göteborg. 
 company_url: http://wimse.se
 
 prose:
-    siteurl: 'http://nautkoncept.se/'
-    relativeLinks: 'http://nautkoncept.se/links.jsonp'
+    siteurl: 'http://nautkoncept.se'
     media: 'assets/themes/naut/img'
     ignore: index.html
