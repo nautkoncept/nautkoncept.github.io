@@ -1,6 +1,6 @@
 <!--
 URL                 : http://nautkoncept.se
-Description         : {% for setting in site.data.naut.settings %}{{ setting.description }}{%endfor%}
+Description         : {{ site.data.naut.settings.description }}
 Date:               : Winter 2016
 Author              : Morgan A Ray @ {{site.company}}
 company             : {{site.company}}
@@ -22,9 +22,7 @@ Company url         : {{site.company_url}}
     {% if page.description %}
         <meta name="description" content="{{ page.description }}">
     {% else %}
-        {% for setting in site.data.naut.settings %}
-        <meta name="description" content="{{ setting.description }}">
-        {% endfor %}
+        <meta name="description" content="{{ site.data.naut.settings.description }}">
     {% endif %}
 
     {% if post.author %}<meta name="author" content="{{ post.author }}"> {% endif %}
@@ -34,9 +32,7 @@ Company url         : {{site.company_url}}
     <meta property="og:url"         content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
     <meta property="og:type"        content="article" />
     <meta property="og:title"       content="{{ site.site }}" />
-    {% for setting in site.data.naut.settings %}
-    <meta property="og:description" content="{{ setting.description }}">
-    {% endfor %}
+    <meta property="og:description" content="{{ site.data.naut.settings.description }}">
     <meta property="og:image"       content="{{ site.url }}/assets/themes/{{site.layout}}/img/{{ site.thumb }}" />
     {% else %}
     <meta property="og:url"         content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
@@ -53,9 +49,7 @@ Company url         : {{site.company_url}}
     <meta name="twitter:image:src" content="{{ site.url }}/assets/themes/{{site.layout}}/img/{{ site.thumb }}">
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
     <meta name="twitter:title" content="{{ site.site }}"  />
-    {% for setting in site.data.naut.settings %}
-    <meta property="og:description" content="{{ setting.description }}">
-    {% endfor %}
+    <meta property="og:description" content="{{ site.data.naut.settings.description }}">
     {% else %}
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@{{site.twitter}}" />

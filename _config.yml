@@ -1,8 +1,8 @@
 destination: ../build
 port: 5000
 site: Naut Konceptutveckling
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://nautkoncept.se" # the base hostname & protocol for your site
+baseurl: ""
+url: "http://nautkoncept.se"
 lang: sv-se
 # Build settings
 markdown: kramdown
@@ -14,8 +14,9 @@ company_desc: wimse är en komplett och kreativ webbbyrå belägen i göteborg. 
 company_url: http://wimse.se
 
 prose:
-    siteurl: "http://nautkoncept.se"
+    siteurl: "https://nautkoncept.github.io"
     media: "assets/themes/naut/img"
     ignore:
         - index.html
         - feed.xml
+        - _config.yml
