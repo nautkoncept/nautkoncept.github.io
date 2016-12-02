@@ -35,3 +35,10 @@ prose:
                   label: "Bild"
                   help: "glöm inte att du måste ange filendelsen."
                   placeholder: "ex.jpg"
+            - name: "yt-video-id"
+              field:
+                  element: "text"
+                  value: ""
+                  label: "Youtube ID"
+                  help: "Är sista delen i länken, ex: (https://www.youtube.com/watch?v=m4pMRtSzjSo)."
+                  placeholder: "m4pMRtSzjSo"
