@@ -12,3 +12,9 @@ author: Morgan A Ray
 company: wimse
 company_desc: wimse är en komplett och kreativ webbbyrå belägen i göteborg. Vi hjälper företag till ökad lönsamhet genom att förbättra och utveckla afärsmodeller. Genom kreativt tänkande, nyskapande idéer och med tekniskt lösningar kan vi tillsammans förbättra din verksamhet. Vi skapar plattformat som tilltalar och stärker din profilering och närvaro på Internet.
 company_url: http://wimse.se
+
+prose:
+    siteurl: 'http://nautkoncept.se/'
+    relativeLinks: 'http://nautkoncept.se/links.jsonp'
+    media: 'assets/themes/naut/img'
+    ignore: index.md
