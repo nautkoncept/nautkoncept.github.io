@@ -31,4 +31,4 @@ prose:
             - name: "img"
               field:
                   element: "text"
-                  value: "img"
+                  value: ""
