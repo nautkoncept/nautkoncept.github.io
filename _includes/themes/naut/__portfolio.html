@@ -1,7 +1,7 @@
 <div id=shadow-top></div>
 <section id=player-selection>
 
-<ul id=selection class=clearfix>{% for video in site.data.naut.videos %}
+<ul id=selection class=clearfix>{% for video in site.posts %}
 
 
     <!-- {% if video.vimeo-embed %} <div class="video_container">{{ video.vimeo-embed }}</div> {% endif %} -->
@@ -16,7 +16,6 @@
                     <span class=selection-cred-left><b>foto:</b> {{video.foto}}</span>
                     <span class=selection-cred-right><b>cred:</b> {{video.cred}}</span>
                 </div>
-
             </section>
         </li>
     {% endif %}

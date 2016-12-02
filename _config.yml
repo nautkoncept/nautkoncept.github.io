@@ -1,14 +1,14 @@
 destination: ../build
 port: 5000
 site: Naut Konceptutveckling
-email: info@nautkoncept.se
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://nautkoncept.se" # the base hostname & protocol for your site
-
+lang: sv-se
 # Build settings
 markdown: kramdown
-theme: minima
+thumb: naut.jpg
+layout: naut
+author: Morgan A Ray
+company: wimse
+company_desc: wimse är en komplett och kreativ webbbyrå belägen i göteborg. Vi hjälper företag till ökad lönsamhet genom att förbättra och utveckla afärsmodeller. Genom kreativt tänkande, nyskapande idéer och med tekniskt lösningar kan vi tillsammans förbättra din verksamhet. Vi skapar plattformat som tilltalar och stärker din profilering och närvaro på Internet.
+company_url: http://wimse.se
