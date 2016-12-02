@@ -22,6 +22,9 @@ prose:
         - _config.yml
         - CNAME
         - css
+        - assets
+        - _includes
+        - _layouts
     metadata:
         _posts/vids:
             - name: "title"
