@@ -1,6 +1,6 @@
 ---
 published: true
-title: 'Ekobristen. En affärsmöjlighet för svenskt lantbruk. '
+title: Ekobristen. An opportunity for swedish agriculture
 img: eko.jpg
 yt-video-id: uqMxNx-i-XU
 description: >-
