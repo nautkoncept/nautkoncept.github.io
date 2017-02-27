@@ -1,7 +1,7 @@
 ---
 published: true
 title: 'Winter proof by AUK Protection '
-img: as.jpg
+img: winter.jpg
 yt-video-id: cr0csF_Pz4s
 description: >-
   The G2 Winter Flight Suit was developed in close collaboration with aircrews
@@ -14,4 +14,3 @@ description: >-
 cred: Lars Lengqvist
 foto: Mats Lind
 ---
-
