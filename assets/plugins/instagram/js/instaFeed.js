@@ -5,7 +5,7 @@ $(document).ready(function() {
 var userFeed = new Instafeed({
     get: 'user',
     userId: '4722004790',
-    accessToken: '3624623948.1677ed0.d2cfa5afe2644bdfa7cca203e427a089',
+    accessToken: '6af7f7a768dd45a49661cd36961723b1',
     template: '<img style="display:none;" src="{{image}}"  />',
     resolution: 'standard_resolution'
 });
