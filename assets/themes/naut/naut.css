@@ -1,3 +1,14 @@
+/**
+* @Author: Andreee "DevelDoe" Ray <andreeray>
+* @Date:   2017-02-27T13:28:02+01:00
+* @Email:  me@andreeray.se
+* @Filename: naut.css
+* @Last modified by:   andreeray
+* @Last modified time: 2017-02-27T14:50:46+01:00
+*/
+
+
+
 ---
 ---
 @import url( 'https://fonts.googleapis.com/css?family=Bungee+Hairline');
@@ -323,7 +334,7 @@ footer table td#social i {
         bottom: 0;
         left: 0;
         width: 100%;
-        z-index: -2;
+        z-index: -1;
         background: white;
         color: #777;
     }
