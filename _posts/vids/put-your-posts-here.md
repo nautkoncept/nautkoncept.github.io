@@ -1,6 +1,6 @@
 ---
 published: true
-title: Untitled
+title: 'Winter proof by AUK Protection '
 img: as.jpg
 yt-video-id: cr0csF_Pz4s
 foto: Mats Lind
@@ -14,4 +14,3 @@ description: >-
   alpine wear. Snow-gaiters and ultra comfortable cuffs keeps the good stuff in
   and the bad stuff out. Ergonomic kneepads included.
 ---
-
